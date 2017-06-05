@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+	background-color: #3498db;
+	font-family: 'Merriweather', sans-serif;
+	margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+header {
+    padding-top: 15px;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+.box {
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3498db;
+}
+
+.quote {
+    font-weight: 900;
+    color: #fff;
+} 
+
+
+.author {
+    font-weight: 400;
+    color: #fff;
+}
+
+.trigger, .tweet {
+    box-sizing: border-box;
+    display: block;
+    margin: 10px auto;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    color: #3498db;
+    background-color: #fff;
+    line-height: 30px;
+    transition: 0.3s;
+}
+
+.trigger:hover, .tweet:hover {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
